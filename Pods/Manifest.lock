@@ -1,0 +1,29 @@
+PODS:
+  - AVOSCloud (3.3.5)
+  - AVOSCloudCrashReporting (3.3.5):
+    - AVOSCloud
+  - AVOSCloudIM (3.3.5):
+    - AVOSCloud
+  - SwipeTableView (0.2.5)
+  - TZImagePickerController (1.6.1)
+  - UMengSocialCOM (5.2.1)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudCrashReporting
+  - AVOSCloudIM
+  - SwipeTableView
+  - TZImagePickerController (~> 1.6.1)
+  - UMengSocialCOM (~> 5.2.1)
+
+SPEC CHECKSUMS:
+  AVOSCloud: 1fe170768bee7e05bc3ea86e38d5bddb105cb957
+  AVOSCloudCrashReporting: 7ad087db785a25d6ef03cb54c2c0b460eb32dabb
+  AVOSCloudIM: dc307c48e951fcd861f4ae6db6d807e7b40639c8
+  SwipeTableView: aced85f829340cadb19fa1a52e27f4aa99f4c308
+  TZImagePickerController: 1f8c9186e6fcfd949cfed563770bf426a049edd6
+  UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
+
+PODFILE CHECKSUM: 8e3c327a0b2f760a02bed051713ca9453840d40d
+
+COCOAPODS: 1.0.1

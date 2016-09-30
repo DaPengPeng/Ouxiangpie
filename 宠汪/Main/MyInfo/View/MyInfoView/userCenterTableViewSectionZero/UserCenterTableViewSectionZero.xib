@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserCenterTableViewSectionZero" rowHeight="99" id="Ghu-G2-9S8" customClass="UserCenterTableViewSectionZero">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ghu-G2-9S8" id="tiM-Ze-PqK">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2y-xe-87m" customClass="ControlView">
+                        <rect key="frame" x="0.0" y="0.0" width="104" height="99"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dTU-6a-sl9" customClass="ControlView">
+                        <rect key="frame" x="104" y="0.0" width="104" height="99"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kf2-SB-IlI" customClass="ControlView">
+                        <rect key="frame" x="311" y="0.0" width="104" height="99"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWr-Ni-QZO" customClass="ControlView">
+                        <rect key="frame" x="208" y="0.0" width="103" height="99"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dTU-6a-sl9" firstAttribute="width" secondItem="tiM-Ze-PqK" secondAttribute="width" multiplier="0.25" id="8I9-HA-WEd"/>
+                    <constraint firstItem="kf2-SB-IlI" firstAttribute="top" secondItem="tiM-Ze-PqK" secondAttribute="top" id="9Nt-af-Jj0"/>
+                    <constraint firstItem="dWr-Ni-QZO" firstAttribute="leading" secondItem="dTU-6a-sl9" secondAttribute="trailing" id="9ZR-rR-ij0"/>
+                    <constraint firstItem="t2y-xe-87m" firstAttribute="width" secondItem="tiM-Ze-PqK" secondAttribute="width" multiplier="0.25" id="9iR-YH-EFc"/>
+                    <constraint firstAttribute="bottom" secondItem="kf2-SB-IlI" secondAttribute="bottom" id="9o4-OR-yqa"/>
+                    <constraint firstItem="dTU-6a-sl9" firstAttribute="top" secondItem="tiM-Ze-PqK" secondAttribute="top" id="9op-9H-9bJ"/>
+                    <constraint firstItem="dWr-Ni-QZO" firstAttribute="top" secondItem="tiM-Ze-PqK" secondAttribute="top" id="Jcy-HN-bVl"/>
+                    <constraint firstItem="t2y-xe-87m" firstAttribute="top" secondItem="tiM-Ze-PqK" secondAttribute="top" id="Jjf-od-nH2"/>
+                    <constraint firstItem="dTU-6a-sl9" firstAttribute="leading" secondItem="t2y-xe-87m" secondAttribute="trailing" id="Kzw-OR-Nhp"/>
+                    <constraint firstItem="kf2-SB-IlI" firstAttribute="width" secondItem="tiM-Ze-PqK" secondAttribute="width" multiplier="0.25" id="PeR-c0-EtK"/>
+                    <constraint firstItem="dWr-Ni-QZO" firstAttribute="width" secondItem="tiM-Ze-PqK" secondAttribute="width" multiplier="0.25" id="U4z-Kv-Ggx"/>
+                    <constraint firstAttribute="bottom" secondItem="dWr-Ni-QZO" secondAttribute="bottom" id="W5m-1r-v9F"/>
+                    <constraint firstAttribute="bottom" secondItem="t2y-xe-87m" secondAttribute="bottom" id="bpg-nK-3LO"/>
+                    <constraint firstAttribute="bottom" secondItem="dTU-6a-sl9" secondAttribute="bottom" id="f7z-aF-sSt"/>
+                    <constraint firstItem="t2y-xe-87m" firstAttribute="leading" secondItem="tiM-Ze-PqK" secondAttribute="leading" id="hhf-1v-sXO"/>
+                    <constraint firstItem="kf2-SB-IlI" firstAttribute="leading" secondItem="dWr-Ni-QZO" secondAttribute="trailing" id="o6J-NW-beH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="controlViewFour" destination="kf2-SB-IlI" id="t41-bd-72S"/>
+                <outlet property="controlViewOne" destination="t2y-xe-87m" id="5RQ-jK-YIR"/>
+                <outlet property="controlViewThree" destination="dWr-Ni-QZO" id="ZMK-1p-vmX"/>
+                <outlet property="controlViewTwo" destination="dTU-6a-sl9" id="1em-CQ-0iu"/>
+            </connections>
+            <point key="canvasLocation" x="294.5" y="245.5"/>
+        </tableViewCell>
+    </objects>
+</document>

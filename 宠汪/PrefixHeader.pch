@@ -1,0 +1,108 @@
+//
+//  PrefixHeader.pch
+//  宠汪
+//
+//  Created by 滕呈斌 on 16/8/8.
+//  Copyright © 2016年 dapengpeng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+#define kScreenH [UIScreen mainScreen].bounds.size.height
+
+#import "UIViewExt.h"
+#import "UIImage+Rect.h"
+#import "UIImageView+WebCache.h"
+
+#define kIdenxChange @"indexChange"
+#define kStatusBarTap @"statusBarTappedNotification"
+#define kVideoCorLoadOver @"VideoCorLoadOver"
+
+//message字段
+#define kMessage @"Message"
+#define kMId @"objectId"
+#define kMUId @"mUId"
+#define kMPhotos @"mPhotos"
+#define kMVideo @"mVideo"
+#define kMVideoCor @"mVideoCorImg"
+#define kMPriseCount @"mPriseCount"
+#define kMType @"mType"
+#define kMReplayCount @"mReplayCount"
+#define kMFavCount @"mFavCount"
+#define kMContent @"mContent"
+#define kMComments @"mComments"
+#define kMCreatedAt @"createdAt"
+#define kMUpdatedAt @"updatedAt"
+
+//user字段
+#define kUser @"_user"
+#define kUserInfo @"UserInfo"
+#define kUserInfoId @"uId"
+#define kUId @"objectId"
+#define kUEmail @"email"
+#define kUSessionToken @"sessionToken"
+#define kUAlais @"uAlais"
+#define kUSex @"uSex"
+#define kUAddress @"uAddress"
+#define kUserName @"username"
+#define kUImage @"uImage"
+#define kUMobilePhoneNumber @"mobilePhoneNumber"
+#define kUInfo @"uInfo"
+#define kUCreatedAt @"createdAt"
+#define kUUpdatedAt @"updatedAt"
+#define kUAttCount @"uAttCount"
+#define kUFanCount @"uFanCount"
+
+//replay字段
+#define kRePlay @"Replay"
+#define kRRId @"objectId"
+#define kRMId @"rMId"
+#define kRUid @"rUId"
+#define kRcontent @"rContent"
+#define kRCreatedAt @"createdAt"
+#define kRUpdatedAt @"updatedAt"
+
+//attention字段
+#define kAttention @"Attention"
+#define kAttUId @"attUId"
+#define kAttedUId @"attedUId"
+#define kAttId @"objectId"
+
+//fav字段
+#define kFav @"Favour"
+#define kFId @"fId"
+#define kFUId @"fUId"
+#define kFMId @"fMId"
+
+//report字段
+#define kReport @"Report"
+#define kRepId @"objectId"
+#define kRepObjectId @"objId"
+#define kRepObject @"obj"
+#define kRepUId @"userId"
+#define kRepReason @"repReason"
+
+//priase字段
+#define kPriase @"Priase"
+#define kPriUId @"pUId"
+#define kPriMId @"pMId"
+#define kPId @"objectId"
+
+
+
+#define MAXSCALE 1.8 //图片放大比例
+
+#endif /* PrefixHeader_pch */
+
+//调试打印位置
+#if 1
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#endif

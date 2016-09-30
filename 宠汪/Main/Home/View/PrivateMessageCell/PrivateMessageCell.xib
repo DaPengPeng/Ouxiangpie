@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PrivateMessageCellOne" rowHeight="101" id="KGk-i7-Jjw" customClass="PrivateMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5qQ-h9-rye">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="1Fz-Be-llB"/>
+                            <constraint firstAttribute="width" secondItem="5qQ-h9-rye" secondAttribute="height" multiplier="1:1" id="MJ3-XW-g1w"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReceiverTextNodeBkg.png" translatesAutoresizingMaskIntoConstraints="NO" id="PGI-v2-Oy4">
+                        <rect key="frame" x="60" y="8" width="276" height="92"/>
+                        <rect key="contentStretch" x="0.20000000000000001" y="0.59999999999999998" width="0.59999999999999998" height="0.0"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5qQ-h9-rye" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="3DO-lg-68r"/>
+                    <constraint firstItem="5qQ-h9-rye" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Eb0-tM-QAl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentCellOne" destination="PGI-v2-Oy4" id="tzA-Jy-ses"/>
+                <outlet property="userImgCellOne" destination="5qQ-h9-rye" id="wbf-qY-Qbi"/>
+            </connections>
+            <point key="canvasLocation" x="324" y="262.5"/>
+        </tableViewCell>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PrivateMessageCellTwo" rowHeight="105" id="pW0-Dg-OL3" customClass="PrivateMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="105"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pW0-Dg-OL3" id="Bdr-CE-VKq">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="104"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="46Y-lJ-mWQ">
+                        <rect key="frame" x="286" y="8" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="46Y-lJ-mWQ" secondAttribute="height" multiplier="1:1" id="DUc-vz-AjV"/>
+                            <constraint firstAttribute="width" constant="50" id="kOS-Bt-1EC"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SenderTextNodeBkg.png" translatesAutoresizingMaskIntoConstraints="NO" id="f9y-qd-lUk">
+                        <rect key="frame" x="8" y="8" width="275" height="96"/>
+                        <rect key="contentStretch" x="0.20000000000000001" y="0.59999999999999998" width="0.59999999999999998" height="0.0"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="46Y-lJ-mWQ" secondAttribute="trailing" constant="8" id="3VB-ge-mu8"/>
+                    <constraint firstItem="46Y-lJ-mWQ" firstAttribute="top" secondItem="Bdr-CE-VKq" secondAttribute="top" constant="8" id="bwy-Xo-cgz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentCellTwo" destination="f9y-qd-lUk" id="XuI-Mb-rQ4"/>
+                <outlet property="userImgCellTwo" destination="46Y-lJ-mWQ" id="hNk-kk-uC1"/>
+            </connections>
+            <point key="canvasLocation" x="324" y="455.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ReceiverTextNodeBkg.png" width="65" height="54"/>
+        <image name="SenderTextNodeBkg.png" width="65" height="54"/>
+    </resources>
+</document>

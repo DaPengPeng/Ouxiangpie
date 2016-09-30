@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="headerView1" id="U6b-Vx-4bR" customClass="MainHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="263" height="535"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wBG-rl-KK7">
+                    <rect key="frame" x="52" y="0.0" width="160" height="44"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <rect key="contentStretch" x="1" y="1" width="0.0" height="0.0"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="K7l-NW-Ogr"/>
+                        <constraint firstAttribute="height" constant="44" id="aco-AG-bXq"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgJ-z9-okc">
+                    <rect key="frame" x="8" y="2" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="CoW-5m-sIN"/>
+                        <constraint firstAttribute="width" constant="40" id="f7M-wo-Cjk"/>
+                    </constraints>
+                    <connections>
+                        <action selector="leftButtionAction:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="PlX-l3-D4Q"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMQ-YC-HyL">
+                    <rect key="frame" x="175" y="7" width="80" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="boa-Tb-yPi"/>
+                        <constraint firstAttribute="width" constant="80" id="kSM-Kw-qPk"/>
+                    </constraints>
+                    <connections>
+                        <action selector="rightButtionAction:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="ehB-n0-ybK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="hgJ-z9-okc" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="8" id="9f7-gD-f1K"/>
+                <constraint firstItem="wBG-rl-KK7" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="N0h-1c-5Om"/>
+                <constraint firstItem="hgJ-z9-okc" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="2" id="XlZ-px-Fdw"/>
+                <constraint firstAttribute="trailing" secondItem="NMQ-YC-HyL" secondAttribute="trailing" constant="8" id="qTI-Wa-1IA"/>
+                <constraint firstItem="NMQ-YC-HyL" firstAttribute="centerY" secondItem="wBG-rl-KK7" secondAttribute="centerY" id="sm8-IW-USm"/>
+                <constraint firstItem="wBG-rl-KK7" firstAttribute="centerY" secondItem="hgJ-z9-okc" secondAttribute="centerY" id="zqj-pH-Qwn"/>
+            </constraints>
+            <connections>
+                <outlet property="leftButtion" destination="hgJ-z9-okc" id="NvQ-A4-gWS"/>
+                <outlet property="logo" destination="wBG-rl-KK7" id="a4h-X2-8bn"/>
+                <outlet property="rightButtion" destination="NMQ-YC-HyL" id="JLX-Yf-83V"/>
+            </connections>
+            <point key="canvasLocation" x="236.5" y="266.5"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="logo.jpg" width="1024" height="768"/>
+    </resources>
+</document>

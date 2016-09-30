@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0089E0BC93B5E4D9B759766AB0422F79 /* STCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 980B0A98946F4814AC271EE74305BF42 /* STCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05E565E708FAA9E3D65A0F6CAE5FE7B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		11A31DF9DED68F1BD9AC8C7E571CC53B /* Pods-宠汪-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC487DE4127CD8C3B9EC284F9648309 /* Pods-宠汪-dummy.m */; };
+		1F60A52D82AA607923E180124FC314E9 /* SwipeTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2096AE5D89E19E069A865C2B203E5DE /* SwipeTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A1B3E7DFF46D84AE87138DB49EF405D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		32C2086190DC663C6B0D62420B93B482 /* TZPhotoPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = F85277C44C631494869D0249D831C85F /* TZPhotoPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D883BA48AABB854C7EB56C246B4F254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		3F78FD8797179B0D105DBEA146A7F963 /* UIView+STFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = E89F006477D49156BB0ACF48B733FE8C /* UIView+STFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B08DA8B35CA891BA0F9951FA378A6C /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846C56F5B3EFE75E3C21AA717A8960DC /* TZPhotoPickerController.m */; };
+		5A9FCE9DF2EC8F14A2D1A509942EBDB1 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D198DEC9AE7A416A058712A47AD8757 /* TZImageManager.m */; };
+		5B2F1C28E2539CF3F510ACED9C75102C /* TZVideoPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BD54506FC4739EE74EA62D930A3655 /* TZVideoPlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE6F92CF0AD6112BD37E9DB0FBDB102 /* TZImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E8AD4C978C4C0851F2ED61F5EE75EA /* TZImagePickerController-dummy.m */; };
+		62CA2BD7353FA115E4A0ABA1E310E4D4 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B34363D82769CD1C353FFB36D21E9C01 /* TZAssetCell.m */; };
+		63600D41D9B5ED8BE8AA88446CB19499 /* STHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96705B2BF848315974C512AEDA343207 /* STHeaderView.m */; };
+		68C0648DDAED0CF473160933AD93CB26 /* SwipeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A27CD0B00EB4D089F1640DFF0E4B54 /* SwipeTableView.m */; };
+		692A1BD8C6ADC68B94287940BB051711 /* TZPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 579A7E1292E013913C8EC22CB23C421A /* TZPhotoPreviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B9579B88E4E02174A0790359F7A6C93 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16EC781636BA1F1100E26CE443F149D /* TZPhotoPreviewController.m */; };
+		6E18149ECAFB568C2ADDD6A4B6BA0512 /* TZAssetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B15CBC1262D125F981E0F9238E856080 /* TZAssetModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7490B2BF5CC397298C51E546169BF557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		7EB14B3601DF1684AF11D8C851D5BC1A /* TZImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0961F47501D2478DAC5F475C11D95123 /* TZImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88D49C8BEBC7E494318F819466B9C09E /* NSBundle+TZImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D60EC06A0B35C16FF95934066D5648B /* NSBundle+TZImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1B703CD90284A2B3E6EE5E9530119C /* TZAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3787C4CAF158A7610074AD79719F45F9 /* TZAssetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C34D8BF8FB41834A5385CE9CD2F94E /* UIView+STFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 410BE033BC44DC8A11E6A0F254EA4D02 /* UIView+STFrame.m */; };
+		9221C4A7105C8B227AE9D8EDBD0D19B6 /* SwipeTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A485796DA9E820E75BC4A2FCB63AEC24 /* SwipeTableView-dummy.m */; };
+		A440DEB0D6E0DF458AF789D881C1328C /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F4082144BF76A7A30A30BF37E24901 /* UIView+Layout.m */; };
+		AEF0EE19DC9ED7A2EA9E24137588D2ED /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E30BE5EF47B5A69A3A581CF339A28F /* TZVideoPlayerController.m */; };
+		B17113DCC3A899024A46FA42EE98FE89 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407CE5499356010B34BC26B6BEAC0B9 /* NSBundle+TZImagePicker.m */; };
+		B9499C8A1699391D5F04841E9387151E /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301AAC1EBADB5CF33365E8E8B2EB5AD /* TZPhotoPreviewCell.m */; };
+		B971258442D86B265E7E4A4CAC74A0B2 /* TZPhotoPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C50F39E15FF0A29EAA84BCC7200A169 /* TZPhotoPreviewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCA548DF6B71A5A4D9F6371B03AD5AB3 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 502475F738F56E851D31C4F2D1D4AC6D /* TZAssetModel.m */; };
+		C7888E466B92A37E277BDC370B3DC384 /* STCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3EDD41A58944F3285043CC6C61FE89 /* STCollectionView.m */; };
+		CD21C1A56754DDDEAA2E87FEB18F8C2F /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3731A43961C2DADEAF85B9E5A897A3EC /* UIView+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D18282E393DA6313D0D94EA4F90D64BA /* TZImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D91AF0F9A088A05CCB997932D0FF34 /* TZImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D902A39B966CDFE397810D0968BEB2A2 /* STHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD45A30EBB080D179CD7285A9B94210 /* STHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF89043335054CBCCF04E26790488F7B /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D302F68160866A1021EB0A54ACD6FAD /* TZImagePickerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05DBA14364ECF163F83DBBC6D2A83402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9331CDAEEB67F7302987CCD3D6293F19;
+			remoteInfo = SwipeTableView;
+		};
+		6A81AE3B5F00E24C70B214640F410780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2590D6C751598064804E1F152F78F9FD;
+			remoteInfo = TZImagePickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013C6368FD33E65AF90DBE569A1721BE /* LWApiImageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiImageObject.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiImageObject.h; sourceTree = "<group>"; };
+		02D7C3B02F64F2F5D7EF7936438C9178 /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResourcesNew.bundle; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		03252A021BAE7D64920D32BDCADB816C /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKBasicButton.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBSDKBasicButton.h; sourceTree = "<group>"; };
+		049E60262A63E38FC31BA0C9B3877765 /* AVSaveOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSaveOption.h; sourceTree = "<group>"; };
+		04D9213E3F3D7DBA04213F67ABB40A34 /* UMSocialTwitterHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialTwitterHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Twitter/UMSocialTwitterHandler.h; sourceTree = "<group>"; };
+		05FFF3D0D86F05961A41AE77DB580553 /* AVGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGeoPoint.h; sourceTree = "<group>"; };
+		06BDDF348D97757D621C11A93EC762E4 /* TZImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZImagePickerController.xcconfig; sourceTree = "<group>"; };
+		0961F47501D2478DAC5F475C11D95123 /* TZImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImageManager.h; path = TZImagePickerController/TZImagePickerController/TZImageManager.h; sourceTree = "<group>"; };
+		097CB9827D656ED992BDF09FA39B224D /* AVStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVStatus.h; sourceTree = "<group>"; };
+		0B37E2037C03455179F455344A4DECB3 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TZImagePickerController.bundle; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle; sourceTree = "<group>"; };
+		0BA3B780810615BB584F99402F96E0F6 /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMShareEditViewControlleriPad.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		0CA5F57883FDDC25BB3A1F3C3551E69C /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboUser.h"; path = "Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		105FCF32AD8DB40EBA6007A6129863F4 /* SwipeTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeTableView.xcconfig; sourceTree = "<group>"; };
+		11EEEAE760025885948FAA85E4610005 /* UMSocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocial.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocial.h; sourceTree = "<group>"; };
+		125222946E3A1E3B75A02F6317AEFD98 /* AVGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGroup.h; sourceTree = "<group>"; };
+		128612423B00D382278BBFFFBD5B719D /* AVIMConversationUpdateBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMConversationUpdateBuilder.h; sourceTree = "<group>"; };
+		1407CE5499356010B34BC26B6BEAC0B9 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+TZImagePicker.m"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		173B530CE60699AD9AA287B51C1440B6 /* AVInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVInstallation.h; sourceTree = "<group>"; };
+		1947CA7D5356DA6F962CA3F9E2618481 /* UMSocialSnsService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSnsService.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialSnsService.h; sourceTree = "<group>"; };
+		1B2781210F90DDA2C590B49A4A1B764F /* libTZImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTZImagePickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C50F39E15FF0A29EAA84BCC7200A169 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewCell.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		1DC2ED2468ABE5366BA0886032147CEA /* UMSocialTumblrHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialTumblrHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/UMSocialTumblrHandler.h; sourceTree = "<group>"; };
+		1F7D0B96C23FF9D0E3D42B8BDEA5915F /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKRelationshipButton.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		23D91AF0F9A088A05CCB997932D0FF34 /* TZImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImagePickerController.h; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.h; sourceTree = "<group>"; };
+		25534CB0D215002C409A845166A48BFE /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat/WXApi.h; sourceTree = "<group>"; };
+		269129FBA9155DC2833436D053A41FF4 /* LWApiRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiRequest.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiRequest.h; sourceTree = "<group>"; };
+		2D5426DB214E741C283662248E817326 /* libSwipeTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwipeTableView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		308A0C67A329316447E7E2FAE5E5967D /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		31EEA8BB85369B3F1B9BB86E675F3BA6 /* AVIMLocationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMLocationMessage.h; sourceTree = "<group>"; };
+		369E15EC68FF2CCD5ABCB384E4EAF77D /* AVObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVObject+Subclass.h"; sourceTree = "<group>"; };
+		3731A43961C2DADEAF85B9E5A897A3EC /* UIView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.h"; sourceTree = "<group>"; };
+		3787C4CAF158A7610074AD79719F45F9 /* TZAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetCell.h; path = TZImagePickerController/TZImagePickerController/TZAssetCell.h; sourceTree = "<group>"; };
+		388548FF9EB2E37F184B082503CBB8D9 /* AVIMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMMessage.h; sourceTree = "<group>"; };
+		3AD1C924A73C717B7EFB32E9513E74C3 /* UMSocialBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialBar.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialBar.h; sourceTree = "<group>"; };
+		3C19431075E84B821D446495698D4885 /* AVPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPush.h; sourceTree = "<group>"; };
+		3D1013FB4671F3E4329A11300CAD212B /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialControllerServiceComment.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		3DFDB6C676DC1A96545CB26529A71784 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle; sourceTree = "<group>"; };
+		410BE033BC44DC8A11E6A0F254EA4D02 /* UIView+STFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+STFrame.m"; path = "SwipeTableView/SwipeTableView/UIView+STFrame.m"; sourceTree = "<group>"; };
+		45B431A0420D7F0CEFF2C32326D2A63A /* AVObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVObject.h; sourceTree = "<group>"; };
+		49A27CD0B00EB4D089F1640DFF0E4B54 /* SwipeTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwipeTableView.m; path = SwipeTableView/SwipeTableView/SwipeTableView.m; sourceTree = "<group>"; };
+		4C51AFC602549CA4B1B5A0016299A71A /* UMSocialConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialConfig.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialConfig.h; sourceTree = "<group>"; };
+		4DA1823D4910950D53A073740B5430EE /* AVIMSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMSignature.h; sourceTree = "<group>"; };
+		502475F738F56E851D31C4F2D1D4AC6D /* TZAssetModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetModel.m; path = TZImagePickerController/TZImagePickerController/TZAssetModel.m; sourceTree = "<group>"; };
+		5180B7C046EE679CD2F204FFC7BABCBA /* libAVOSCloudCrashReporting.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloudCrashReporting.a; sourceTree = "<group>"; };
+		564647E5CBFB7D90C548487314FBE433 /* AVMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVMessage.h; sourceTree = "<group>"; };
+		579A7E1292E013913C8EC22CB23C421A /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewController.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		57CC5AA31BB358E5AE3495D713AA8659 /* AVIMAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMAvailability.h; sourceTree = "<group>"; };
+		588137B59533C916EDAF812FF37DB954 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/en.lproj; sourceTree = "<group>"; };
+		59CC3EF36D97A061B75BC1A85EA931AA /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat/WechatAuthSDK.h; sourceTree = "<group>"; };
+		5A7D8AB3F67DD79A444A54B4DFBDFFDA /* UMSLoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMSLoginViewController.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSLoginViewController.xib; sourceTree = "<group>"; };
+		5AE277B69AF6EB2B83370E231F04AC52 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/zh-Hans.lproj"; sourceTree = "<group>"; };
+		5AF4BB7BEF6C9767B79A269DB3AB2990 /* LWApiMediaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiMediaObject.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiMediaObject.h; sourceTree = "<group>"; };
+		5BD2D8FE0C6A6D9A513458CF6289103D /* AVIMConversationQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMConversationQuery.h; sourceTree = "<group>"; };
+		5D00A40B6E8B0A94E3D18F44AC0F94FE /* AVIMConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMConversation.h; sourceTree = "<group>"; };
+		5D302F68160866A1021EB0A54ACD6FAD /* TZImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImagePickerController.m; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.m; sourceTree = "<group>"; };
+		5DBCECAE45282A67D4EC78FF13171D96 /* AVHistoryMessageQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessageQuery.h; sourceTree = "<group>"; };
+		5E11E5263F7F30B0A1D9B2F448FAE3F7 /* UMSocialFacebookHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialFacebookHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Facebook/UMSocialFacebookHandler.h; sourceTree = "<group>"; };
+		60A1149331BE7CB1BF2AA4E3F4FB17DD /* AVOSCloudCrashReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloudCrashReporting.h; sourceTree = "<group>"; };
+		61EEF4FCAA4E73B218422AFA7D867C24 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat/WXApiObject.h; sourceTree = "<group>"; };
+		6301AAC1EBADB5CF33365E8E8B2EB5AD /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewCell.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		635254373606178C91A2EB1C4A70ACFE /* Pods-宠汪.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-宠汪.debug.xcconfig"; sourceTree = "<group>"; };
+		6436E03163EA4344B69291751EB5511E /* AVSearchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchQuery.h; sourceTree = "<group>"; };
+		64C6E289D760A6F93C630858695DF616 /* AVIMAudioMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMAudioMessage.h; sourceTree = "<group>"; };
+		66AF0D5133E8E9786AB9985022C4C141 /* APOpenAPIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APOpenAPIObject.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/APOpenAPIObject.h; sourceTree = "<group>"; };
+		679AFB04DFAA42560E473D5D9A99C79F /* UMSocialDataService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialDataService.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialDataService.h; sourceTree = "<group>"; };
+		67A7362CE42CB62BF9322470420743DD /* AVIMTextMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMTextMessage.h; sourceTree = "<group>"; };
+		6A97E61D317D530CDC49B4AD7B5C571F /* LWApiMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiMessage.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiMessage.h; sourceTree = "<group>"; };
+		6D198DEC9AE7A416A058712A47AD8757 /* TZImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageManager.m; path = TZImagePickerController/TZImagePickerController/TZImageManager.m; sourceTree = "<group>"; };
+		6D50AE935D7E4572C7526C75CCC4E8D1 /* AVIMClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMClient.h; sourceTree = "<group>"; };
+		70B0F21DF3DCFD0B62097CB24F8B5829 /* Pods-宠汪-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-宠汪-frameworks.sh"; sourceTree = "<group>"; };
+		7642FD62F447894E3469E6F7E44FF4F9 /* AVRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRole.h; sourceTree = "<group>"; };
+		76E99E666A35DF45021B3C83F2B6EB31 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.h; sourceTree = "<group>"; };
+		7867D4105DF338B64781B91DEEC11F56 /* APOpenAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APOpenAPI.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/APOpenAPI.h; sourceTree = "<group>"; };
+		7938A81E0919DCAE0FBE407614D839BB /* AVHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessage.h; sourceTree = "<group>"; };
+		7B52E0CD7B25140CD5028DC0CADCA0AA /* AVIMVideoMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMVideoMessage.h; sourceTree = "<group>"; };
+		7F1C0E922F345D6784B55F3676FA52A0 /* UMShareEditViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMShareEditViewController.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMShareEditViewController.xib; sourceTree = "<group>"; };
+		814A088E2A26B312FADD5FFAE8875541 /* AVIMKeyedConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMKeyedConversation.h; sourceTree = "<group>"; };
+		825C79F2D74866B78EBC395575043810 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKCommentButton.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBSDKCommentButton.h; sourceTree = "<group>"; };
+		834A4F0A8C29EAB1AED6CA38EB43DA68 /* UMSocialAccountManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialAccountManager.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialAccountManager.h; sourceTree = "<group>"; };
+		846C56F5B3EFE75E3C21AA717A8960DC /* TZPhotoPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPickerController.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPickerController.m; sourceTree = "<group>"; };
+		85209751AF150A2F270F0FD8CE1CE592 /* SwipeTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeTableView-prefix.pch"; sourceTree = "<group>"; };
+		867E60CCD068588F9DDAEA6245657390 /* UMSCommentInputController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMSCommentInputController.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSCommentInputController.xib; sourceTree = "<group>"; };
+		87408928B99103A1ECAEDF5DB69813E6 /* LWApiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiResponse.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiResponse.h; sourceTree = "<group>"; };
+		87E30BE5EF47B5A69A3A581CF339A28F /* TZVideoPlayerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZVideoPlayerController.m; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.m; sourceTree = "<group>"; };
+		883E506BA53C0D1152E4861927133BB9 /* UMSocialLaiwangHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialLaiwangHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/UMSocialLaiwangHandler.h; sourceTree = "<group>"; };
+		88B7620F438BD188B84FE0F2612C0E03 /* AVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVUser.h; sourceTree = "<group>"; };
+		8A3EDD41A58944F3285043CC6C61FE89 /* STCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCollectionView.m; path = SwipeTableView/SwipeTableView/STCollectionView.m; sourceTree = "<group>"; };
+		8B86ED3FCB56F5267EB908D432B7AB22 /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMSCommentDetailController.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		8D60EC06A0B35C16FF95934066D5648B /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+TZImagePicker.h"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		8F7EA1ECD0042798B4A8F888F1AD719B /* LWApiConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiConnection.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiConnection.h; sourceTree = "<group>"; };
+		915B02D3217830E3AA86A70BB6A1981B /* UMSocialSnsData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSnsData.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialSnsData.h; sourceTree = "<group>"; };
+		91767AD5304D326601BC8E038142C912 /* UMSocialInstagramHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialInstagramHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Instagram/UMSocialInstagramHandler.h; sourceTree = "<group>"; };
+		91A77BF83BEEA6F3835BE344D09BC626 /* AVFileQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFileQuery.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942C9CF1AE5F30C5758FF77CE7F6CE96 /* UMSocialData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialData.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialData.h; sourceTree = "<group>"; };
+		945DBEAA1583A01BC6BAD9809B7C4CD1 /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboGame.h"; path = "Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		96705B2BF848315974C512AEDA343207 /* STHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STHeaderView.m; path = SwipeTableView/SwipeTableView/STHeaderView.m; sourceTree = "<group>"; };
+		9739EDB14F8F647D1E5794516608CE12 /* AVAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnalytics.h; sourceTree = "<group>"; };
+		9797B702658278D4D103CF31F51C313E /* AVIMUserOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMUserOptions.h; sourceTree = "<group>"; };
+		980B0A98946F4814AC271EE74305BF42 /* STCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCollectionView.h; path = SwipeTableView/SwipeTableView/STCollectionView.h; sourceTree = "<group>"; };
+		98186561EF0312BCDE6999B1145AFB30 /* AVAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnonymousUtils.h; sourceTree = "<group>"; };
+		9829BCAA828E3B32FFB920D160E0801B /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/UMSocialQQHandler.h; sourceTree = "<group>"; };
+		9864233B1351FB38C30F68DDF8D02682 /* libAVOSCloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloud.a; sourceTree = "<group>"; };
+		98D385649F2622F0679FD98AF3E62A32 /* Pods-宠汪-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-宠汪-resources.sh"; sourceTree = "<group>"; };
+		99CFBD9FF32F4631365F5F1D970B4AE8 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A485796DA9E820E75BC4A2FCB63AEC24 /* SwipeTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeTableView-dummy.m"; sourceTree = "<group>"; };
+		A4AC376AA49221821FED7CA74B3AE211 /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSnsPlatformManager.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		A5B2E7BD424F15F93DDCD006E35E6F0F /* AVIMCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMCommon.h; sourceTree = "<group>"; };
+		A8B528CEA129BF84368CC89F441B0769 /* UMSShareListController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMSShareListController.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSShareListController.xib; sourceTree = "<group>"; };
+		AAF44521A4ADA80773F9B9E5A5D03514 /* AVIMFileMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMFileMessage.h; sourceTree = "<group>"; };
+		ABD5D53B43C02284FA2A6E8AE7BBF079 /* UMSocialWhatsappHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWhatsappHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Whatsapp/UMSocialWhatsappHandler.h; sourceTree = "<group>"; };
+		ACB67A5443207EDF766BA2871D949659 /* Pods-宠汪-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-宠汪-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFC487DE4127CD8C3B9EC284F9648309 /* Pods-宠汪-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-宠汪-dummy.m"; sourceTree = "<group>"; };
+		B06F51E9F5EBCD97F3ECF4F989AAF9F1 /* AVSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSignature.h; sourceTree = "<group>"; };
+		B15CBC1262D125F981E0F9238E856080 /* TZAssetModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetModel.h; path = TZImagePickerController/TZImagePickerController/TZAssetModel.h; sourceTree = "<group>"; };
+		B2114F68B872C890830A24B353F3D4A6 /* AVQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVQuery.h; sourceTree = "<group>"; };
+		B30C4A46840EF849C5421E954904A678 /* AVAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAvailability.h; sourceTree = "<group>"; };
+		B34363D82769CD1C353FFB36D21E9C01 /* TZAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetCell.m; path = TZImagePickerController/TZImagePickerController/TZAssetCell.m; sourceTree = "<group>"; };
+		B3A8DFA32A72C877D1816D3DE722C690 /* AVOSCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloud.h; sourceTree = "<group>"; };
+		B547501EF974C6A0706410A757435CBC /* AVSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSubclassing.h; sourceTree = "<group>"; };
+		B736DB9401503A0D2794E2972D573B1C /* AVACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVACL.h; sourceTree = "<group>"; };
+		BCD45A30EBB080D179CD7285A9B94210 /* STHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STHeaderView.h; path = SwipeTableView/SwipeTableView/STHeaderView.h; sourceTree = "<group>"; };
+		BDC76882FF7F68462C76A86B170CFEB5 /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboUser.h; sourceTree = "<group>"; };
+		C0A0E972FFE48AB47D66E33592600A8F /* UMSocialSinaSSOHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSinaSSOHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/UMSocialSinaSSOHandler.h; sourceTree = "<group>"; };
+		C16EC781636BA1F1100E26CE443F149D /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewController.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		CF807E8BE5B361F94533A5DFFA9B38A7 /* Pods-宠汪.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-宠汪.release.xcconfig"; sourceTree = "<group>"; };
+		D1E8AD4C978C4C0851F2ED61F5EE75EA /* TZImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		D3C843225AD7759DC0DF1B42B3DBBF4F /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMSnsAccountViewController.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		D416EF37CDE044E9D625FD2705255157 /* AVSearchSortBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchSortBuilder.h; sourceTree = "<group>"; };
+		D4814529A6ECCEAE44A8F5D2379616AC /* libAVOSCloudIM.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloudIM.a; sourceTree = "<group>"; };
+		D5F4082144BF76A7A30A30BF37E24901 /* UIView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layout.m"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.m"; sourceTree = "<group>"; };
+		D62A03E9A5A2E517265CB59E29800444 /* AVLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVLogger.h; sourceTree = "<group>"; };
+		DB5E20D21BFF1E6B4F0095B0544F4A94 /* UMSocialLineHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialLineHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Line/UMSocialLineHandler.h; sourceTree = "<group>"; };
+		DB69A4F3DD685A8F672E5C1A1CB109DF /* TZImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		DBD2EA342A787E174BA4C9D04F146902 /* libPods-宠汪.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-宠汪.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6FC40B820A37C7DE487052DDE6D1B1 /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UMSCommentInputControlleriPad.xib; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		DDB8CE9B6DA8B0D0101E674824E557C9 /* AVIMImageMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMImageMessage.h; sourceTree = "<group>"; };
+		DEA4C0E7658A107C8BA3170B7E950F9F /* WeiboSDK+Statistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WeiboSDK+Statistics.h"; path = "Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK+Statistics.h"; sourceTree = "<group>"; };
+		E05D55ABD4FF37F8C435A7973BF14803 /* AVCloudQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloudQueryResult.h; sourceTree = "<group>"; };
+		E2C8548AE523B36795668A347D5DB3E5 /* AVIMTypedMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMTypedMessage.h; sourceTree = "<group>"; };
+		E51A84929398134B0D5529FDF5D3765F /* LWApiSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiSDK.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiSDK.h; sourceTree = "<group>"; };
+		E593E98B3606411A6970B725D33BA270 /* Pods-宠汪-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-宠汪-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6DB9D60517733C50668AE67F116D839 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest.h; sourceTree = "<group>"; };
+		E75B3E8475D139EB9DBE89B2BC8CCE84 /* LWApiUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiUtils.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiUtils.h; sourceTree = "<group>"; };
+		E813C2368FF23BBB67AC50076729CEA2 /* AVRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRelation.h; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E89F006477D49156BB0ACF48B733FE8C /* UIView+STFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+STFrame.h"; path = "SwipeTableView/SwipeTableView/UIView+STFrame.h"; sourceTree = "<group>"; };
+		E9CD43F393E45D1D84FBEAD26C0F8D2E /* UMSocialAlipayShareHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialAlipayShareHandler.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/UMSocialAlipayShareHandler.h; sourceTree = "<group>"; };
+		EBE3FB4E640F8F44C5C020137BF3F5B8 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		EC508A47A9C22D55C415DD5628A5AE97 /* AVConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVConstants.h; sourceTree = "<group>"; };
+		F0E4EA0A8F0C35CA0B560A620954DEE2 /* AVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFile.h; sourceTree = "<group>"; };
+		F2096AE5D89E19E069A865C2B203E5DE /* SwipeTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwipeTableView.h; path = SwipeTableView/SwipeTableView/SwipeTableView.h; sourceTree = "<group>"; };
+		F48042084C43707542E1EEA98CAD3A1A /* AVIMClientOpenOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMClientOpenOption.h; sourceTree = "<group>"; };
+		F4BD54506FC4739EE74EA62D930A3655 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZVideoPlayerController.h; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.h; sourceTree = "<group>"; };
+		F5E8DDE3FDBB63D01C6E461881651EB4 /* AVCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloud.h; sourceTree = "<group>"; };
+		F820FADA4E141118A50D3C6AC7887A14 /* LWApiConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWApiConfig.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiConfig.h; sourceTree = "<group>"; };
+		F85277C44C631494869D0249D831C85F /* TZPhotoPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPickerController.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPickerController.h; sourceTree = "<group>"; };
+		F8F39179D9AAF1E81C907BF9BBFF7604 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		FD7A961A0066D0958EBA71F4480D34FB /* UMSocialControllerService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialControllerService.h; path = Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/Header/UMSocialControllerService.h; sourceTree = "<group>"; };
+		FD928286C32578278312A3F8F6FBD306 /* AVOSCloudIM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloudIM.h; sourceTree = "<group>"; };
+		FE0CF5E432BB4A0EE658D7BB126E5404 /* AVSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSession.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BA009A8BA628F98054838D11A6A2B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7490B2BF5CC397298C51E546169BF557 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BD2F122F582587E5296D43C0D95DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D883BA48AABB854C7EB56C246B4F254 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5E62541D1E2524B958F5EB17A4F442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1B3E7DFF46D84AE87138DB49EF405D /* Foundation.framework in Frameworks */,
+				05E565E708FAA9E3D65A0F6CAE5FE7B2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A179A73E3BB08642D9AA10C283FFFA1 /* AVOSCloudCrashReporting */ = {
+			isa = PBXGroup;
+			children = (
+				60A1149331BE7CB1BF2AA4E3F4FB17DD /* AVOSCloudCrashReporting.h */,
+				4AD7AADA41E475AAAB9F4574310943A6 /* Frameworks */,
+			);
+			path = AVOSCloudCrashReporting;
+			sourceTree = "<group>";
+		};
+		2A54E519A974185921017B613E71C471 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06BDDF348D97757D621C11A93EC762E4 /* TZImagePickerController.xcconfig */,
+				D1E8AD4C978C4C0851F2ED61F5EE75EA /* TZImagePickerController-dummy.m */,
+				DB69A4F3DD685A8F672E5C1A1CB109DF /* TZImagePickerController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TZImagePickerController";
+			sourceTree = "<group>";
+		};
+		2A5F49CA5CA39DDC9BBADB2F2B2310EC /* AVOSCloudIM */ = {
+			isa = PBXGroup;
+			children = (
+				64C6E289D760A6F93C630858695DF616 /* AVIMAudioMessage.h */,
+				57CC5AA31BB358E5AE3495D713AA8659 /* AVIMAvailability.h */,
+				6D50AE935D7E4572C7526C75CCC4E8D1 /* AVIMClient.h */,
+				F48042084C43707542E1EEA98CAD3A1A /* AVIMClientOpenOption.h */,
+				A5B2E7BD424F15F93DDCD006E35E6F0F /* AVIMCommon.h */,
+				5D00A40B6E8B0A94E3D18F44AC0F94FE /* AVIMConversation.h */,
+				5BD2D8FE0C6A6D9A513458CF6289103D /* AVIMConversationQuery.h */,
+				128612423B00D382278BBFFFBD5B719D /* AVIMConversationUpdateBuilder.h */,
+				AAF44521A4ADA80773F9B9E5A5D03514 /* AVIMFileMessage.h */,
+				DDB8CE9B6DA8B0D0101E674824E557C9 /* AVIMImageMessage.h */,
+				814A088E2A26B312FADD5FFAE8875541 /* AVIMKeyedConversation.h */,
+				31EEA8BB85369B3F1B9BB86E675F3BA6 /* AVIMLocationMessage.h */,
+				388548FF9EB2E37F184B082503CBB8D9 /* AVIMMessage.h */,
+				4DA1823D4910950D53A073740B5430EE /* AVIMSignature.h */,
+				67A7362CE42CB62BF9322470420743DD /* AVIMTextMessage.h */,
+				E2C8548AE523B36795668A347D5DB3E5 /* AVIMTypedMessage.h */,
+				9797B702658278D4D103CF31F51C313E /* AVIMUserOptions.h */,
+				7B52E0CD7B25140CD5028DC0CADCA0AA /* AVIMVideoMessage.h */,
+				FD928286C32578278312A3F8F6FBD306 /* AVOSCloudIM.h */,
+				2C67AF9C3ECF8A9C3036C23E83049C5D /* Frameworks */,
+			);
+			path = AVOSCloudIM;
+			sourceTree = "<group>";
+		};
+		2C67AF9C3ECF8A9C3036C23E83049C5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4814529A6ECCEAE44A8F5D2379616AC /* libAVOSCloudIM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EAEEBF81A86D229F53D485BF3B0D4A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				588137B59533C916EDAF812FF37DB954 /* en.lproj */,
+				308A0C67A329316447E7E2FAE5E5967D /* TencentOpenApi_IOS_Bundle.bundle */,
+				8B86ED3FCB56F5267EB908D432B7AB22 /* UMSCommentDetailController.xib */,
+				867E60CCD068588F9DDAEA6245657390 /* UMSCommentInputController.xib */,
+				DC6FC40B820A37C7DE487052DDE6D1B1 /* UMSCommentInputControlleriPad.xib */,
+				7F1C0E922F345D6784B55F3676FA52A0 /* UMShareEditViewController.xib */,
+				0BA3B780810615BB584F99402F96E0F6 /* UMShareEditViewControlleriPad.xib */,
+				5A7D8AB3F67DD79A444A54B4DFBDFFDA /* UMSLoginViewController.xib */,
+				D3C843225AD7759DC0DF1B42B3DBBF4F /* UMSnsAccountViewController.xib */,
+				02D7C3B02F64F2F5D7EF7936438C9178 /* UMSocialSDKResourcesNew.bundle */,
+				A8B528CEA129BF84368CC89F441B0769 /* UMSShareListController.xib */,
+				3DFDB6C676DC1A96545CB26529A71784 /* WeiboSDK.bundle */,
+				5AE277B69AF6EB2B83370E231F04AC52 /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D1C3631E482D6624FFFFCCDCB3AD4F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B37E2037C03455179F455344A4DECB3 /* TZImagePickerController.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AD7AADA41E475AAAB9F4574310943A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5180B7C046EE679CD2F204FFC7BABCBA /* libAVOSCloudCrashReporting.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A20E24BF8D9E3503CFDC33885B332D7 /* AVOSCloud */ = {
+			isa = PBXGroup;
+			children = (
+				B736DB9401503A0D2794E2972D573B1C /* AVACL.h */,
+				9739EDB14F8F647D1E5794516608CE12 /* AVAnalytics.h */,
+				98186561EF0312BCDE6999B1145AFB30 /* AVAnonymousUtils.h */,
+				B30C4A46840EF849C5421E954904A678 /* AVAvailability.h */,
+				F5E8DDE3FDBB63D01C6E461881651EB4 /* AVCloud.h */,
+				E05D55ABD4FF37F8C435A7973BF14803 /* AVCloudQueryResult.h */,
+				EC508A47A9C22D55C415DD5628A5AE97 /* AVConstants.h */,
+				F0E4EA0A8F0C35CA0B560A620954DEE2 /* AVFile.h */,
+				91A77BF83BEEA6F3835BE344D09BC626 /* AVFileQuery.h */,
+				05FFF3D0D86F05961A41AE77DB580553 /* AVGeoPoint.h */,
+				125222946E3A1E3B75A02F6317AEFD98 /* AVGroup.h */,
+				7938A81E0919DCAE0FBE407614D839BB /* AVHistoryMessage.h */,
+				5DBCECAE45282A67D4EC78FF13171D96 /* AVHistoryMessageQuery.h */,
+				173B530CE60699AD9AA287B51C1440B6 /* AVInstallation.h */,
+				D62A03E9A5A2E517265CB59E29800444 /* AVLogger.h */,
+				564647E5CBFB7D90C548487314FBE433 /* AVMessage.h */,
+				45B431A0420D7F0CEFF2C32326D2A63A /* AVObject.h */,
+				369E15EC68FF2CCD5ABCB384E4EAF77D /* AVObject+Subclass.h */,
+				B3A8DFA32A72C877D1816D3DE722C690 /* AVOSCloud.h */,
+				3C19431075E84B821D446495698D4885 /* AVPush.h */,
+				B2114F68B872C890830A24B353F3D4A6 /* AVQuery.h */,
+				E813C2368FF23BBB67AC50076729CEA2 /* AVRelation.h */,
+				7642FD62F447894E3469E6F7E44FF4F9 /* AVRole.h */,
+				049E60262A63E38FC31BA0C9B3877765 /* AVSaveOption.h */,
+				6436E03163EA4344B69291751EB5511E /* AVSearchQuery.h */,
+				D416EF37CDE044E9D625FD2705255157 /* AVSearchSortBuilder.h */,
+				FE0CF5E432BB4A0EE658D7BB126E5404 /* AVSession.h */,
+				B06F51E9F5EBCD97F3ECF4F989AAF9F1 /* AVSignature.h */,
+				097CB9827D656ED992BDF09FA39B224D /* AVStatus.h */,
+				B547501EF974C6A0706410A757435CBC /* AVSubclassing.h */,
+				88B7620F438BD188B84FE0F2612C0E03 /* AVUser.h */,
+				B1B670098A7AD494A1B97903D2C2BCEF /* Frameworks */,
+			);
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
+		6BEA590BBE0DCD3A34D8F14D1BB98954 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				8D60EC06A0B35C16FF95934066D5648B /* NSBundle+TZImagePicker.h */,
+				1407CE5499356010B34BC26B6BEAC0B9 /* NSBundle+TZImagePicker.m */,
+				3787C4CAF158A7610074AD79719F45F9 /* TZAssetCell.h */,
+				B34363D82769CD1C353FFB36D21E9C01 /* TZAssetCell.m */,
+				B15CBC1262D125F981E0F9238E856080 /* TZAssetModel.h */,
+				502475F738F56E851D31C4F2D1D4AC6D /* TZAssetModel.m */,
+				0961F47501D2478DAC5F475C11D95123 /* TZImageManager.h */,
+				6D198DEC9AE7A416A058712A47AD8757 /* TZImageManager.m */,
+				23D91AF0F9A088A05CCB997932D0FF34 /* TZImagePickerController.h */,
+				5D302F68160866A1021EB0A54ACD6FAD /* TZImagePickerController.m */,
+				F85277C44C631494869D0249D831C85F /* TZPhotoPickerController.h */,
+				846C56F5B3EFE75E3C21AA717A8960DC /* TZPhotoPickerController.m */,
+				1C50F39E15FF0A29EAA84BCC7200A169 /* TZPhotoPreviewCell.h */,
+				6301AAC1EBADB5CF33365E8E8B2EB5AD /* TZPhotoPreviewCell.m */,
+				579A7E1292E013913C8EC22CB23C421A /* TZPhotoPreviewController.h */,
+				C16EC781636BA1F1100E26CE443F149D /* TZPhotoPreviewController.m */,
+				F4BD54506FC4739EE74EA62D930A3655 /* TZVideoPlayerController.h */,
+				87E30BE5EF47B5A69A3A581CF339A28F /* TZVideoPlayerController.m */,
+				3731A43961C2DADEAF85B9E5A897A3EC /* UIView+Layout.h */,
+				D5F4082144BF76A7A30A30BF37E24901 /* UIView+Layout.m */,
+				3D1C3631E482D6624FFFFCCDCB3AD4F4 /* Resources */,
+				2A54E519A974185921017B613E71C471 /* Support Files */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		78EAA07A60D2BB4E8CABA4E305D727E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A52F4BE06C2EC6AD538FA6D4E3B025DF /* Pods-宠汪 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D20457E6540737663AA2B0FA39BA0503 /* Pods */,
+				CA4AA9899D6B234FEBAA175C931BA766 /* Products */,
+				78EAA07A60D2BB4E8CABA4E305D727E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A52F4BE06C2EC6AD538FA6D4E3B025DF /* Pods-宠汪 */ = {
+			isa = PBXGroup;
+			children = (
+				E593E98B3606411A6970B725D33BA270 /* Pods-宠汪-acknowledgements.markdown */,
+				ACB67A5443207EDF766BA2871D949659 /* Pods-宠汪-acknowledgements.plist */,
+				AFC487DE4127CD8C3B9EC284F9648309 /* Pods-宠汪-dummy.m */,
+				70B0F21DF3DCFD0B62097CB24F8B5829 /* Pods-宠汪-frameworks.sh */,
+				98D385649F2622F0679FD98AF3E62A32 /* Pods-宠汪-resources.sh */,
+				635254373606178C91A2EB1C4A70ACFE /* Pods-宠汪.debug.xcconfig */,
+				CF807E8BE5B361F94533A5DFFA9B38A7 /* Pods-宠汪.release.xcconfig */,
+			);
+			name = "Pods-宠汪";
+			path = "Target Support Files/Pods-宠汪";
+			sourceTree = "<group>";
+		};
+		AB93B9050E264CB25F101AD4D273E397 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				105FCF32AD8DB40EBA6007A6129863F4 /* SwipeTableView.xcconfig */,
+				A485796DA9E820E75BC4A2FCB63AEC24 /* SwipeTableView-dummy.m */,
+				85209751AF150A2F270F0FD8CE1CE592 /* SwipeTableView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwipeTableView";
+			sourceTree = "<group>";
+		};
+		B1B670098A7AD494A1B97903D2C2BCEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9864233B1351FB38C30F68DDF8D02682 /* libAVOSCloud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C64D6DBBBB7A6EB10AB0FCEA0A5C3486 /* SwipeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				980B0A98946F4814AC271EE74305BF42 /* STCollectionView.h */,
+				8A3EDD41A58944F3285043CC6C61FE89 /* STCollectionView.m */,
+				BCD45A30EBB080D179CD7285A9B94210 /* STHeaderView.h */,
+				96705B2BF848315974C512AEDA343207 /* STHeaderView.m */,
+				F2096AE5D89E19E069A865C2B203E5DE /* SwipeTableView.h */,
+				49A27CD0B00EB4D089F1640DFF0E4B54 /* SwipeTableView.m */,
+				E89F006477D49156BB0ACF48B733FE8C /* UIView+STFrame.h */,
+				410BE033BC44DC8A11E6A0F254EA4D02 /* UIView+STFrame.m */,
+				AB93B9050E264CB25F101AD4D273E397 /* Support Files */,
+			);
+			path = SwipeTableView;
+			sourceTree = "<group>";
+		};
+		CA4AA9899D6B234FEBAA175C931BA766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD2EA342A787E174BA4C9D04F146902 /* libPods-宠汪.a */,
+				2D5426DB214E741C283662248E817326 /* libSwipeTableView.a */,
+				1B2781210F90DDA2C590B49A4A1B764F /* libTZImagePickerController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D20457E6540737663AA2B0FA39BA0503 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A20E24BF8D9E3503CFDC33885B332D7 /* AVOSCloud */,
+				0A179A73E3BB08642D9AA10C283FFFA1 /* AVOSCloudCrashReporting */,
+				2A5F49CA5CA39DDC9BBADB2F2B2310EC /* AVOSCloudIM */,
+				C64D6DBBBB7A6EB10AB0FCEA0A5C3486 /* SwipeTableView */,
+				6BEA590BBE0DCD3A34D8F14D1BB98954 /* TZImagePickerController */,
+				DED969E51D059C1D4673B4D1D8FB3519 /* UMengSocialCOM */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DED969E51D059C1D4673B4D1D8FB3519 /* UMengSocialCOM */ = {
+			isa = PBXGroup;
+			children = (
+				7867D4105DF338B64781B91DEEC11F56 /* APOpenAPI.h */,
+				66AF0D5133E8E9786AB9985022C4C141 /* APOpenAPIObject.h */,
+				F820FADA4E141118A50D3C6AC7887A14 /* LWApiConfig.h */,
+				8F7EA1ECD0042798B4A8F888F1AD719B /* LWApiConnection.h */,
+				013C6368FD33E65AF90DBE569A1721BE /* LWApiImageObject.h */,
+				5AF4BB7BEF6C9767B79A269DB3AB2990 /* LWApiMediaObject.h */,
+				6A97E61D317D530CDC49B4AD7B5C571F /* LWApiMessage.h */,
+				269129FBA9155DC2833436D053A41FF4 /* LWApiRequest.h */,
+				87408928B99103A1ECAEDF5DB69813E6 /* LWApiResponse.h */,
+				E51A84929398134B0D5529FDF5D3765F /* LWApiSDK.h */,
+				E75B3E8475D139EB9DBE89B2BC8CCE84 /* LWApiUtils.h */,
+				11EEEAE760025885948FAA85E4610005 /* UMSocial.h */,
+				834A4F0A8C29EAB1AED6CA38EB43DA68 /* UMSocialAccountManager.h */,
+				E9CD43F393E45D1D84FBEAD26C0F8D2E /* UMSocialAlipayShareHandler.h */,
+				3AD1C924A73C717B7EFB32E9513E74C3 /* UMSocialBar.h */,
+				4C51AFC602549CA4B1B5A0016299A71A /* UMSocialConfig.h */,
+				FD7A961A0066D0958EBA71F4480D34FB /* UMSocialControllerService.h */,
+				3D1013FB4671F3E4329A11300CAD212B /* UMSocialControllerServiceComment.h */,
+				942C9CF1AE5F30C5758FF77CE7F6CE96 /* UMSocialData.h */,
+				679AFB04DFAA42560E473D5D9A99C79F /* UMSocialDataService.h */,
+				5E11E5263F7F30B0A1D9B2F448FAE3F7 /* UMSocialFacebookHandler.h */,
+				91767AD5304D326601BC8E038142C912 /* UMSocialInstagramHandler.h */,
+				883E506BA53C0D1152E4861927133BB9 /* UMSocialLaiwangHandler.h */,
+				DB5E20D21BFF1E6B4F0095B0544F4A94 /* UMSocialLineHandler.h */,
+				9829BCAA828E3B32FFB920D160E0801B /* UMSocialQQHandler.h */,
+				C0A0E972FFE48AB47D66E33592600A8F /* UMSocialSinaSSOHandler.h */,
+				915B02D3217830E3AA86A70BB6A1981B /* UMSocialSnsData.h */,
+				A4AC376AA49221821FED7CA74B3AE211 /* UMSocialSnsPlatformManager.h */,
+				1947CA7D5356DA6F962CA3F9E2618481 /* UMSocialSnsService.h */,
+				1DC2ED2468ABE5366BA0886032147CEA /* UMSocialTumblrHandler.h */,
+				04D9213E3F3D7DBA04213F67ABB40A34 /* UMSocialTwitterHandler.h */,
+				99CFBD9FF32F4631365F5F1D970B4AE8 /* UMSocialWechatHandler.h */,
+				ABD5D53B43C02284FA2A6E8AE7BBF079 /* UMSocialWhatsappHandler.h */,
+				E6DB9D60517733C50668AE67F116D839 /* WBHttpRequest.h */,
+				945DBEAA1583A01BC6BAD9809B7C4CD1 /* WBHttpRequest+WeiboGame.h */,
+				EBE3FB4E640F8F44C5C020137BF3F5B8 /* WBHttpRequest+WeiboShare.h */,
+				F8F39179D9AAF1E81C907BF9BBFF7604 /* WBHttpRequest+WeiboToken.h */,
+				0CA5F57883FDDC25BB3A1F3C3551E69C /* WBHttpRequest+WeiboUser.h */,
+				03252A021BAE7D64920D32BDCADB816C /* WBSDKBasicButton.h */,
+				825C79F2D74866B78EBC395575043810 /* WBSDKCommentButton.h */,
+				1F7D0B96C23FF9D0E3D42B8BDEA5915F /* WBSDKRelationshipButton.h */,
+				59CC3EF36D97A061B75BC1A85EA931AA /* WechatAuthSDK.h */,
+				76E99E666A35DF45021B3C83F2B6EB31 /* WeiboSDK.h */,
+				DEA4C0E7658A107C8BA3170B7E950F9F /* WeiboSDK+Statistics.h */,
+				BDC76882FF7F68462C76A86B170CFEB5 /* WeiboUser.h */,
+				25534CB0D215002C409A845166A48BFE /* WXApi.h */,
+				61EEF4FCAA4E73B218422AFA7D867C24 /* WXApiObject.h */,
+				2EAEEBF81A86D229F53D485BF3B0D4A5 /* Resources */,
+			);
+			path = UMengSocialCOM;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A688AC2E49308692B0290939C92C88E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0089E0BC93B5E4D9B759766AB0422F79 /* STCollectionView.h in Headers */,
+				D902A39B966CDFE397810D0968BEB2A2 /* STHeaderView.h in Headers */,
+				1F60A52D82AA607923E180124FC314E9 /* SwipeTableView.h in Headers */,
+				3F78FD8797179B0D105DBEA146A7F963 /* UIView+STFrame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE92AEE014B5882182F0A4898D0F91F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D49C8BEBC7E494318F819466B9C09E /* NSBundle+TZImagePicker.h in Headers */,
+				8A1B703CD90284A2B3E6EE5E9530119C /* TZAssetCell.h in Headers */,
+				6E18149ECAFB568C2ADDD6A4B6BA0512 /* TZAssetModel.h in Headers */,
+				7EB14B3601DF1684AF11D8C851D5BC1A /* TZImageManager.h in Headers */,
+				D18282E393DA6313D0D94EA4F90D64BA /* TZImagePickerController.h in Headers */,
+				32C2086190DC663C6B0D62420B93B482 /* TZPhotoPickerController.h in Headers */,
+				B971258442D86B265E7E4A4CAC74A0B2 /* TZPhotoPreviewCell.h in Headers */,
+				692A1BD8C6ADC68B94287940BB051711 /* TZPhotoPreviewController.h in Headers */,
+				5B2F1C28E2539CF3F510ACED9C75102C /* TZVideoPlayerController.h in Headers */,
+				CD21C1A56754DDDEAA2E87FEB18F8C2F /* UIView+Layout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2590D6C751598064804E1F152F78F9FD /* TZImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFF3C493C4C824E785268C512C1EE03 /* Build configuration list for PBXNativeTarget "TZImagePickerController" */;
+			buildPhases = (
+				90C25D03F548A8DC270EAC829306EA53 /* Sources */,
+				7BA009A8BA628F98054838D11A6A2B60 /* Frameworks */,
+				DBE92AEE014B5882182F0A4898D0F91F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TZImagePickerController;
+			productName = TZImagePickerController;
+			productReference = 1B2781210F90DDA2C590B49A4A1B764F /* libTZImagePickerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9331CDAEEB67F7302987CCD3D6293F19 /* SwipeTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54ACFB7548C95FCB9A015B2959915575 /* Build configuration list for PBXNativeTarget "SwipeTableView" */;
+			buildPhases = (
+				A74C6898CB03B9F660596769B3D4B97C /* Sources */,
+				EF5E62541D1E2524B958F5EB17A4F442 /* Frameworks */,
+				3A688AC2E49308692B0290939C92C88E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeTableView;
+			productName = SwipeTableView;
+			productReference = 2D5426DB214E741C283662248E817326 /* libSwipeTableView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B7F06CFE6D778A5E0DA0F5DFEF2CF079 /* Pods-宠汪 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78DFA783199D6B4C3107997CF5BCAD9 /* Build configuration list for PBXNativeTarget "Pods-宠汪" */;
+			buildPhases = (
+				4AABA0DCBD0770777F6A46F650A244E1 /* Sources */,
+				E7BD2F122F582587E5296D43C0D95DC6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FB2BC0D065F97A03BFB0C7672BA64E2 /* PBXTargetDependency */,
+				2F92DC5856BE753B5629CED95C94B8B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-宠汪";
+			productName = "Pods-宠汪";
+			productReference = DBD2EA342A787E174BA4C9D04F146902 /* libPods-宠汪.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CA4AA9899D6B234FEBAA175C931BA766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7F06CFE6D778A5E0DA0F5DFEF2CF079 /* Pods-宠汪 */,
+				9331CDAEEB67F7302987CCD3D6293F19 /* SwipeTableView */,
+				2590D6C751598064804E1F152F78F9FD /* TZImagePickerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AABA0DCBD0770777F6A46F650A244E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A31DF9DED68F1BD9AC8C7E571CC53B /* Pods-宠汪-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C25D03F548A8DC270EAC829306EA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17113DCC3A899024A46FA42EE98FE89 /* NSBundle+TZImagePicker.m in Sources */,
+				62CA2BD7353FA115E4A0ABA1E310E4D4 /* TZAssetCell.m in Sources */,
+				BCA548DF6B71A5A4D9F6371B03AD5AB3 /* TZAssetModel.m in Sources */,
+				5A9FCE9DF2EC8F14A2D1A509942EBDB1 /* TZImageManager.m in Sources */,
+				5FE6F92CF0AD6112BD37E9DB0FBDB102 /* TZImagePickerController-dummy.m in Sources */,
+				FF89043335054CBCCF04E26790488F7B /* TZImagePickerController.m in Sources */,
+				57B08DA8B35CA891BA0F9951FA378A6C /* TZPhotoPickerController.m in Sources */,
+				B9499C8A1699391D5F04841E9387151E /* TZPhotoPreviewCell.m in Sources */,
+				6B9579B88E4E02174A0790359F7A6C93 /* TZPhotoPreviewController.m in Sources */,
+				AEF0EE19DC9ED7A2EA9E24137588D2ED /* TZVideoPlayerController.m in Sources */,
+				A440DEB0D6E0DF458AF789D881C1328C /* UIView+Layout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74C6898CB03B9F660596769B3D4B97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7888E466B92A37E277BDC370B3DC384 /* STCollectionView.m in Sources */,
+				63600D41D9B5ED8BE8AA88446CB19499 /* STHeaderView.m in Sources */,
+				9221C4A7105C8B227AE9D8EDBD0D19B6 /* SwipeTableView-dummy.m in Sources */,
+				68C0648DDAED0CF473160933AD93CB26 /* SwipeTableView.m in Sources */,
+				90C34D8BF8FB41834A5385CE9CD2F94E /* UIView+STFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F92DC5856BE753B5629CED95C94B8B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TZImagePickerController;
+			target = 2590D6C751598064804E1F152F78F9FD /* TZImagePickerController */;
+			targetProxy = 6A81AE3B5F00E24C70B214640F410780 /* PBXContainerItemProxy */;
+		};
+		4FB2BC0D065F97A03BFB0C7672BA64E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeTableView;
+			target = 9331CDAEEB67F7302987CCD3D6293F19 /* SwipeTableView */;
+			targetProxy = 05DBA14364ECF163F83DBBC6D2A83402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		418FC2DEBAFD4973045934583A0A6F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BDDF348D97757D621C11A93EC762E4 /* TZImagePickerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TZImagePickerController/TZImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A8DAFDD8C9D8016BB4176024DC56BC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105FCF32AD8DB40EBA6007A6129863F4 /* SwipeTableView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeTableView/SwipeTableView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AE6F494D17F14DC91504DEBA300B2D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 635254373606178C91A2EB1C4A70ACFE /* Pods-宠汪.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5A0969E590D60D6ACDE49B31084E174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF807E8BE5B361F94533A5DFFA9B38A7 /* Pods-宠汪.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E8789D7B6473AE9A5E8AD7FEFB2CCB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105FCF32AD8DB40EBA6007A6129863F4 /* SwipeTableView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeTableView/SwipeTableView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF2152A11DB451F49F0304141B75C58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BDDF348D97757D621C11A93EC762E4 /* TZImagePickerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TZImagePickerController/TZImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFF3C493C4C824E785268C512C1EE03 /* Build configuration list for PBXNativeTarget "TZImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418FC2DEBAFD4973045934583A0A6F6B /* Debug */,
+				FF2152A11DB451F49F0304141B75C58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54ACFB7548C95FCB9A015B2959915575 /* Build configuration list for PBXNativeTarget "SwipeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8789D7B6473AE9A5E8AD7FEFB2CCB27 /* Debug */,
+				A8DAFDD8C9D8016BB4176024DC56BC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78DFA783199D6B4C3107997CF5BCAD9 /* Build configuration list for PBXNativeTarget "Pods-宠汪" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6F494D17F14DC91504DEBA300B2D75 /* Debug */,
+				C5A0969E590D60D6ACDE49B31084E174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

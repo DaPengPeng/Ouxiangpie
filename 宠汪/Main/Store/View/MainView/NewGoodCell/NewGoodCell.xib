@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewGoodCell" rowHeight="426" id="KGk-i7-Jjw" customClass="NewGoodCell">
+            <rect key="frame" x="0.0" y="0.0" width="417" height="426"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="417" height="425"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7.png" translatesAutoresizingMaskIntoConstraints="NO" id="vL7-gV-uHt">
+                        <rect key="frame" x="0.0" y="3" width="278" height="418"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="vL7-gV-uHt" secondAttribute="height" multiplier="2:3" id="sbY-nK-aQ8"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Iu-0Q-sV3">
+                        <rect key="frame" x="278" y="142" width="139" height="139"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="3Iu-0Q-sV3" secondAttribute="height" multiplier="1:1" id="RBQ-ha-Isn"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8.png" translatesAutoresizingMaskIntoConstraints="NO" id="qyC-qe-8UW">
+                        <rect key="frame" x="278" y="3" width="139" height="139"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="qyC-qe-8UW" secondAttribute="height" multiplier="1:1" id="DAT-DY-DKE"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10.png" translatesAutoresizingMaskIntoConstraints="NO" id="grI-Ex-Awx">
+                        <rect key="frame" x="278" y="281" width="139" height="139"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="grI-Ex-Awx" secondAttribute="height" multiplier="1:1" id="hb6-H6-VHv"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="grI-Ex-Awx" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.333333" id="0tL-vt-sCg"/>
+                    <constraint firstItem="3Iu-0Q-sV3" firstAttribute="leading" secondItem="vL7-gV-uHt" secondAttribute="trailing" id="6dA-vp-zIO"/>
+                    <constraint firstItem="vL7-gV-uHt" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.666666" id="7Kl-H1-Fey"/>
+                    <constraint firstItem="vL7-gV-uHt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="KiW-Lu-Qd4"/>
+                    <constraint firstItem="qyC-qe-8UW" firstAttribute="leading" secondItem="vL7-gV-uHt" secondAttribute="trailing" id="LpQ-fd-7sj"/>
+                    <constraint firstItem="3Iu-0Q-sV3" firstAttribute="top" secondItem="qyC-qe-8UW" secondAttribute="bottom" id="QDf-xA-qhg"/>
+                    <constraint firstItem="qyC-qe-8UW" firstAttribute="top" secondItem="vL7-gV-uHt" secondAttribute="top" id="RVO-ZV-pIb"/>
+                    <constraint firstItem="vL7-gV-uHt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="fVQ-Tp-cgX"/>
+                    <constraint firstItem="3Iu-0Q-sV3" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.333333" id="ggX-OJ-NLD"/>
+                    <constraint firstItem="vL7-gV-uHt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="iJ1-2a-9pe"/>
+                    <constraint firstItem="grI-Ex-Awx" firstAttribute="leading" secondItem="vL7-gV-uHt" secondAttribute="trailing" id="o7T-dt-3CO"/>
+                    <constraint firstItem="qyC-qe-8UW" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.333333" id="oyt-au-2Jf"/>
+                    <constraint firstItem="grI-Ex-Awx" firstAttribute="top" secondItem="3Iu-0Q-sV3" secondAttribute="bottom" id="tgg-62-LA4"/>
+                    <constraint firstItem="vL7-gV-uHt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="umg-qc-gmz"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="fVQ-Tp-cgX"/>
+                        <exclude reference="umg-qc-gmz"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="321.5" y="426"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="10.png" width="120" height="127"/>
+        <image name="7.png" width="201" height="389"/>
+        <image name="8.png" width="125" height="131"/>
+        <image name="9.png" width="127" height="115"/>
+    </resources>
+</document>
